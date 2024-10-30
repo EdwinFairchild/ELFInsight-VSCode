@@ -1,8 +1,20 @@
 # ELFInsight: A Powerful ELF Symbol and Call Graph Visualizer for VS Code
 
 Welcome to **ELFInsight**, your go-to Visual Studio Code extension for analyzing ELF files with ease! ELFInsight offers a streamlined, user-friendly interface to view symbol tables, inspect memory usage, and visualize function call graphs.
+
 ![](overview.png)
 ![](callgraph.png)
+
+### 🚀 How to Use:
+1. **Open your embedded project**: 
+   - Find your elf file, click on it and it will open with ELFInsight as long as no other
+   extension is set to open `.elf` files. The symbol table and memory usage will be displayed and the call graph will be generated.
+
+2. **Reccomendation**:
+    - To improve call graph results, compile your code with optimization level `-Og` **(Optimize for Debugging)** this helps keep debugging information to capture
+      indirect function calls like pointers to functions etc.
+    - ElfInsight will if the elf file being read was not made with the same version of ARM GNU binaries pointed to in the settings, there will be a missmatch of debug information structure.
+---
 ### ✨ Features:
 1. **ELF Symbol Table Viewer**:
    - Effortlessly view all symbols in your ELF files, categorized by name, section, type, size, and memory address.
@@ -24,16 +36,6 @@ Welcome to **ELFInsight**, your go-to Visual Studio Code extension for analyzing
 5. **Flexible Search in Call Graphs**:
    - Quickly locate functions in the call graph by searching for function names.
    - Matched nodes are highlighted, and the view zooms in for easy inspection. 🎯
-
-
-### 🚀 How to Use:
-1. **Open an ELF File**: 
-   - Select an ELF file from the explorer side panel and it will open with ELF Insight as long as no other
-   extension is set to open `.elf` files. The symbol table and memory usage will be displayed.
-
-2. **Reccomendation**:
-    - To improve call graph results, compile your code with optimization level `-Og` **(Optimize for Debugging)** to capture as many function calls as possible.
-    - ElfInsight will if the elf file being read was not made with the same version of ARM GNU binaries pointed to in the settings, there will be a missmatch of debug information structure.
 
 ---
 
