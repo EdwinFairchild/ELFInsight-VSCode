@@ -1,4 +1,4 @@
-# ELFInsight: A Powerful ELF Symbol and Call Graph Visualizer for VS Code
+# ELFInsight: A Powerful (ARM) ELF Symbol and Call Graph Visualizer for VS Code
 
 Welcome to **ELFInsight**, your go-to Visual Studio Code extension for analyzing ELF files with ease! ELFInsight offers a streamlined, user-friendly interface to view symbol tables, inspect memory usage, and visualize function call graphs.
 
