@@ -43,4 +43,4 @@ This extension is perfect for firmware developers, embedded engineers, or anyone
 
 Developed with ❤️ by **Eddie**. 
 
-File issues/bugs/requests on GitHub: [ELFInsight Repository](https://github.com/EdwinFairchild/ELFInsight) 🖥️
+File issues/bugs/requests on GitHub: [ELFInsight Repository](https://github.com/EdwinFairchild/ELFInsight-VSCode) 🖥️
