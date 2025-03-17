@@ -2,7 +2,7 @@
 
 Welcome to **ELFInsight**, your go-to Visual Studio Code extension for analyzing ELF files with ease! ELFInsight offers a streamlined, user-friendly interface to view symbol tables, inspect memory usage, and visualize function call graphs.
 ![](overview.png)
-![](callgraph.png)
+
 ### ✨ Features:
 1. **ELF Symbol Table Viewer**:
    - Effortlessly view all symbols in your ELF files, categorized by name, section, type, size, and memory address.
@@ -41,4 +41,4 @@ This extension is perfect for firmware developers, embedded engineers, or anyone
 
 Developed with ❤️ by **Eddie**. 
 
-File issues/bugs/requests on GitHub: [ELFInsight Repository](https://github.com/EdwinFairchild/ELFInsight) 🖥️
+File issues/bugs/requests on GitHub: [ELFInsight Repository](https://github.com/EdwinFairchild/ELFInsight-VSCode) 🖥️
